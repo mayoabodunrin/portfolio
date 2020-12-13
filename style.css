@@ -1,0 +1,55 @@
+.bg-img {
+  /* image for the navbar*/
+  background-image: url("img/baby.jpg");
+
+  min-height: 900px;
+
+  /* background position */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* position for the navbar*/
+  position: relative;
+}
+
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* my navbar */
+.topnav {
+  overflow: hidden;
+
+}
+
+/* Navbar anchor tag link */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 90px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+
+.container {
+  position: relative;
+  max-width: 10000px; 
+  margin: 0 auto; 
+}
+
+.container .content {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%; 
+  padding: 600px; 
+}
